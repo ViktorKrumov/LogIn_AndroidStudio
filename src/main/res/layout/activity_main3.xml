@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A68383"
+    android:backgroundTint="#BCB5B5"
+    tools:context=".MainActivity2">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="419dp"
+        android:layout_height="530dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:background="#CC5B5B"
+            android:backgroundTint="#3ED5AA"
+            android:gravity="top|left"
+            android:text="Result"
+            android:textSize="34sp"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="399dp"
+            android:layout_height="445dp"
+            app:layout_column="0"
+            app:layout_row="1"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="135dp"
+                android:layout_height="66dp"
+                android:text=" Adress:"
+                android:textSize="34sp"
+                app:layout_column="0"
+                app:layout_row="3" />
+
+            <TextView
+                android:id="@+id/phoneNumberID"
+                android:layout_width="146dp"
+                android:layout_height="67dp"
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_row="5" />
+
+            <TextView
+                android:id="@+id/addressID"
+                android:layout_width="154dp"
+                android:layout_height="64dp"
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_row="3" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="116dp"
+                android:layout_height="73dp"
+                app:layout_column="2"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/nameID"
+                android:layout_width="151dp"
+                android:layout_height="61dp"
+                android:text=""
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_row="1" />
+
+            <TextView
+                android:id="@+id/ageID"
+                android:layout_width="154dp"
+                android:layout_height="64dp"
+                android:textSize="24sp"
+                app:layout_column="1"
+                app:layout_row="2" />
+
+            <Button
+                android:id="@+id/showBTN"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:text="Show phone number"
+                app:layout_column="1"
+                app:layout_row="4" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="135dp"
+                android:layout_height="66dp"
+                android:text=" Name: "
+                android:textSize="34sp"
+                app:layout_column="0"
+                app:layout_row="1" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="135dp"
+                android:layout_height="66dp"
+                android:text=" Age: "
+                android:textSize="34sp"
+                app:layout_column="0"
+                app:layout_row="2" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
